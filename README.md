@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### make a simple record for the technical stack to achieve login
+Once upon user login, the sever will send and restore a session, and the out date 
+should be set `604800`sec (a week).
+Each time user lunch the website, they should require server whether there have their
+session or not. If there have, the navbar should display the personal space link, else,
+there should be the login link
