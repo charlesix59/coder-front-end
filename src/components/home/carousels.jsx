@@ -1,5 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
-import apex from '../../assets/images/apex.jpg'
+import apex from '../../assets/images/apex.jpg';
+import hire from '../../assets/images/hire.jpg';
+import newcode from '../../assets/images/newcode.jpg';
+
 import "../../App.css"
 
 function Carousels() {
@@ -14,35 +17,30 @@ function Carousels() {
                         height="400px"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>一起成为捍卫者</h3>
+                        <p>来个枪男来个指挥带我吃鸡呀！别的不会躺赢很强！</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={apex}
+                        src={hire}
                         alt="Second slide"
                         height="400px"
                     />
-
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={apex}
+                        src={newcode}
                         alt="Third slide"
                         height="400px"
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
+                        <h3>新一代校园招聘引领者</h3>
                         <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                            更懂人才的数字化校招服务商
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
